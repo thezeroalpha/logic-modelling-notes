@@ -21,8 +21,8 @@ sentence: a formula that has no free variables
 
 | Universal quantification                                             | Existential quantification                                               | Equality                                             |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------|
-| {{file:img/universal-introduction.png|Universal introduction}} | {{file:img/existential-introduction.png|Existential introduction}} | {{file:img/equality-rules.png|Equality rules}} |
-| {{file:img/universal-elimination.png|Universal elimination}}   | {{file:img/existential-elimination.png|Existential elimination}}   | \/                                                   |
+| {{local:img/universal-introduction.png|Universal introduction}} | {{file:img/existential-introduction.png|Existential introduction}} | {{file:img/equality-rules.png|Equality rules}} |
+| {{local:img/universal-elimination.png|Universal elimination}}   | {{file:img/existential-elimination.png|Existential elimination}}   | \/                                                   |
 
 
 === Relativization and sorts ===
@@ -47,7 +47,7 @@ Model M for (F, P) consists of:
 
 Universe A can be any non-empty set.
 
-only constraint: f^M and P^M have same number of arguments as f and P.
+only constraint: $F^M$ and $P^M$ have same number of arguments as F and P.
 
 === Interpreting formulas without quantifiers ===
 Truth definition for formula Φ without quantifiers and free variables in model M by induction on the structure of Φ:
@@ -55,11 +55,11 @@ Truth definition for formula Φ without quantifiers and free variables in model 
     * M ⊨ Æ∧ Ψ ↔ M ⊨ Φ and M ⊨ Ψ
     * M ⊨ Φ ∨ Ψ ↔ M ⊨ Φ or M ⊨ Ψ
     * M ⊨ Φ → Ψ : if M ⊨ Φ then M ⊨ Ψ
-    * M ⊨ P(t₁, .., tn) ↔ (t₁^M, ..., tn^M) ∈ P^M
+    * M ⊨ P(t₁, .., tn) ↔ ($t_1^M,\ldots,t_n^M) \in P^M$
 
-Interpretation of terms t^M:
-    * if t = c for constant c, then t^M = c^M
-    * if t = f(t₁,..., tn), then t^M = f^M(t₁^M,...,tn^M)
+Interpretation of terms $t^M$:
+    * if t = c for constant c, then $t^M = c^M$
+    * if $t = f(t_1,\ldots, t_n)$, then $t^M = f^M(t_1^M,\ldots,t_n^M)$
 
 === Interpretation of formulas with quantifiers and free variables ===
 to interpret free variables, you use an environment.
@@ -128,10 +128,10 @@ two constants:
 
 model M:
   * domain A = the set of all humans
-  * C^M = { x ∈ A | x is clever }
-  * LL^M = { x ∈ A | x has learned logic }
-  * j^M = Jan
-  * m^M = Marie
+  * $C^M$ = { x ∈ A | x is clever }
+  * $LL^M$ = { x ∈ A | x has learned logic }
+  * $j^M $= Jan
+  * $m^M$ = Marie
 
 Then:
   * "Marie and Jan are clever": C(m) ∧ C(j)

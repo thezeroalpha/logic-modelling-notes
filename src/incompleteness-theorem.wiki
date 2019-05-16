@@ -5,11 +5,11 @@ Consider sets of function and predicate symbols:
 
 with as intended model number theory N:
   * domain of N is the natural numbers with 0
-  * 0^N = 0
-  * S^N (n) = n + 1
-  * +^N (n,m) = n+m
-  * N(n,m) = n · m
-  * <^N = { <n,m> | n,m ∈ N such that n < m }
+  * $0^\mathbb{N} = 0$
+  * $S^\mathbb{N} (n) = n + 1$
+  * $+^\mathbb{N} (n,m) = n+m$
+  * $\mathbb{N}(n,m) = n \cdot m$
+  * $<^\mathbb{N} = \{ <n,m> | n,m \in \mathbb{N} \text{ such that }n < m \}$
 
 One would like to have complete theory (deduction system) ⊢ for N that allows to derive all formulas that are true in N.
 

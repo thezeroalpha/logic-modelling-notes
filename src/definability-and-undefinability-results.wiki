@@ -1,12 +1,12 @@
 == Definability and Undefinability results ==
 expressible frame properties in predicate/modal logic:
 
-{{file:img/expressible-frame-properties.png|Expressible frame properties}}
+{{local:img/expressible-frame-properties.png|Expressible frame properties}}
 
 === for model cardinality ===
 model cardinality:
 
-{{file:img/model-cardinality-definition.png|Model cardinality definition}}
+{{local:img/model-cardinality-definition.png|Model cardinality definition}}
 
 
 for all models M and all n ≥ 2 it holds that:
@@ -43,11 +43,11 @@ Reachable in n steps:
 
 shorthand: χ₂(c,d) denotes formula ∃x₁ (R(c, x₁) ∧ R(x₁, d))
 
-{{file:img/theorem-for-reachability.png|Theorem for reachability}}
+{{local:img/theorem-for-reachability.png|Theorem for reachability}}
 
 reachability is undefinable:
 
-{{file:img/reachability-is-undefinable.png|Reachability is undefinable}}
+{{local:img/reachability-is-undefinable.png|Reachability is undefinable}}
 
 
 Let R be a binary relation symbol.
@@ -59,5 +59,5 @@ Let R be a binary relation symbol.
     * definable by a set of sentences
 
 === General overview ===
-{{file:img/undefinability-results-overview.png|Undefinability results overview}}
+{{local:img/undefinability-results-overview.png|Undefinability results overview}}
 

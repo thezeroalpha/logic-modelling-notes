@@ -43,11 +43,11 @@ equivalence relation:
 === Natural numbers & induction ===
 Set of natural numbers is N ∈ (0,∞)
 
-*Principle of induction*: let P be a property of natural numbers. Suppose P holds for zero, and whenever P holds for a natural number n, then it holds for its successor n+1. Then P holds for every natural number.
+Principle of induction: let P be a property of natural numbers. Suppose P holds for zero, and whenever P holds for a natural number n, then it holds for its successor n+1. Then P holds for every natural number.
 
 As a natural deduction rule:
 
-{{file:img/induction-natural-deduction-rule.png|Induction natural deduction rule}}
+{{local:img/induction-natural-deduction-rule.png|Induction natural deduction rule}}
 
 === Recursive definitions ===
 Let A be any set, suppose a is in A, and g: N × A → A. Then there is a unique function f satisfying:

@@ -6,8 +6,8 @@ Entailment syntactically (⊢) and semantically (⊨)
 Soundness and completeness:
   * Γ ⊢ Φ ⇔ Γ ⊨ Φ
   * for all formulas Φ, every set Γ of formulas
-  * soundness (correctness): ⇒
-  * completeness: ⇐
+  * soundness (correctness): left-to-right (⇒)
+  * completeness: right-to-left (⇐)
 
 soundness theorem:
   * Γ ⊢ Φ ⇒ Γ ⊨ Φ
@@ -15,7 +15,7 @@ soundness theorem:
   * "correct" means not possible to derive false conclusion Φ from true premises Γ
   * prove by induction on derivation lengths
 
-completness theorem:
+completeness theorem:
   * Γ ⊨ Φ ⇒ Γ ⊢ Φ
   * derivations are strong enough to derive all valid semantic entailment statements
   * "complete" means more derivation rules are not necessary
@@ -28,7 +28,7 @@ consistency and syntactical consistency
 semantical consistency:
   * set Γ of formulas is consistent if there is model M and environment l such that M ⊨ Φ for all Φ ∈ Γ
 
-syntatical consistency:
+syntactical consistency:
   * set Γ of formulas is syntactically consistent if Γ ⊬ ⊥
 
 compactness theorem:

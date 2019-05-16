@@ -51,4 +51,3 @@
   - [[decidability-and-undecidability#Decidability and Undecidability#Undecidability of Validity and Provability|Undecidability of Validity and Provability]]
   - [[decidability-and-undecidability#Decidability and Undecidability#Undecidability of Satisfiability|Undecidability of Satisfiability]]
 - [[incompleteness-theorem#Incompleteness theorem|Incompleteness theorem]]
-

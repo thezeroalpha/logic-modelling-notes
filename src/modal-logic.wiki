@@ -8,21 +8,21 @@ modalities (unary connectives):
 Kripke model `M = (W, R, L)` consists of:
   * W worlds
   * R accessibility relation
-  * L labeling function: which propositional letters are true in which world (`w ||- p ↔ p ∈ L(w)`)
+  * L labeling function: which propositional letters are true in which world (`w ⊩ p ↔ p ∈ L(w)`)
 
 Kripke models define truth _per world_.
 
-{{file:img/kripke-model-and-graph.png|Kripke model and graph}}
+{{local:img/kripke-model-and-graph.png|Kripke model and graph}}
 
 === Truth in worlds ===
-`M, w ||- Φ` means formula Φ is true in world w of Kripke model M.
+`M, w ⊩ Φ` means formula Φ is true in world w of Kripke model M.
 
 ◇ Φ is true in world w if there exists a world w' such that R(w, w') and Φ is true in w'.
 
 □ Φ is true in world w if Φ is true in all worlds w' with R(w, w'). special case when world has no outgoing edge, ◇ Φ never holds and □ Φ always holds.
 
 === Truth in Kripke models ===
-Φ is true in Kripke model `M = (W, R, L)` (i.e. M ⊨ Φ), iff x ||- Φ for every world x ∈ W.
+Φ is true in Kripke model `M = (W, R, L)` (i.e. M ⊨ Φ), iff x ⊩ Φ for every world x ∈ W.
 
 all propositional tautologies also hold in modal logic.
 

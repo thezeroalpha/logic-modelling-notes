@@ -34,15 +34,15 @@ steps:
 ==== Post's Correspondence Problem ====
 Given n pairs of words: <w1, v1> , ..., <wn, vn>
 
-are there indices i1, i2, ..., ik (k ≥ 1) s.t. when concatenated, wi1 wi2 ... wik = vi1 vi2 ... vik ?
+are there indices $i_1, i_2, ..., i_k$ (k ≥ 1) s.t. when concatenated, $wi_1 wi_2 ... wi_k = vi_1 vi_2 ... vi_k $?
 
 as a decision problem:
-  * PCP = { <<w1, v1>, ..., <wk, vk>> | k ≥ 1, wi, vi binary words }
+  * $PCP = \{ < <w_1, v_1>, ..., <w_k, v_k> > | k ≥ 1, w_i, v_i \; \text{binary words} \}$
   * Y = { i ∈ PCP | i has a solution }
 
 it's undecidable.
 
-the termination problem can be reduced to PCP -- there is a computable function r that maps instances of termination problem to instances of PCP such that it holds: P terminates on input w ⇔ I_<P, w> has a solution
+the termination problem can be reduced to PCP -- there is a computable function r that maps instances of termination problem to instances of PCP such that it holds: $P\text{ terminates on input w} \iff I_{<P, w>}\text{ has a solution}$
 
 the validity problem in predicate logic is undecidable (no program that, given formula Φ, decides whether or not ⊨ Φ holds). PCP can be reduced to validity problem:
   * I (instance of PCP) has a solution ⇔ ⊨ ΦI (instance of validity problem is valid)
