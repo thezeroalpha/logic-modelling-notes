@@ -26,12 +26,20 @@ h3.name {
 	font-size: 20px;
 }
 a {
-		color: #D1551F;
-	}
+	color: #D1551F;
+}
 a:hover {
 	color: #AF440F;
 }
-	strong {
-		font-weight: 700;
-		color: #2A2A2A;
-	}
+strong {
+	font-weight: 700;
+	color: #2A2A2A;
+}
+td,th,table {
+	border: 1px solid #AAA;
+	border-collapse: collapse;
+}
+th,td {
+	padding: 0.5em;
+}
+
