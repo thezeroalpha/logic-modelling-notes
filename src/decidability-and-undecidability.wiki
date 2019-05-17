@@ -1,3 +1,4 @@
+%template math
 == Decidability and Undecidability ==
 === Decision problems ===
 Decision problem consists of set I and a predicate Y ⊆ I

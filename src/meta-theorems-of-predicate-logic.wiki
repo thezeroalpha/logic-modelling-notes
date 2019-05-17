@@ -1,3 +1,4 @@
+%template math
 == Meta-Theorems of Predicate Logic ==
 Entailment syntactically (⊢) and semantically (⊨)
   * Γ ⊢ ψ: there is natural deduction derivation of ψ that only uses premises in Γ

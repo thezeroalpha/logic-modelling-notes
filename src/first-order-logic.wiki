@@ -1,3 +1,4 @@
+%template math
 == First order logic ==
 === Functions, predicates, relations ===
 functions: take different numbers of arguments, returns a result. e.g. $mul(x,y)$, $square(x)$
@@ -21,8 +22,8 @@ sentence: a formula that has no free variables
 
 | Universal quantification                                             | Existential quantification                                               | Equality                                             |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------|
-| {{local:img/universal-introduction.png|Universal introduction}} | {{file:img/existential-introduction.png|Existential introduction}} | {{file:img/equality-rules.png|Equality rules}} |
-| {{local:img/universal-elimination.png|Universal elimination}}   | {{file:img/existential-elimination.png|Existential elimination}}   | \/                                                   |
+| {{local:../img/universal-introduction.png|Universal introduction}} | {{local:../img/existential-introduction.png|Existential introduction}} | {{local:../img/equality-rules.png|Equality rules}} |
+| {{local:../img/universal-elimination.png|Universal elimination}}   | {{local:../img/existential-elimination.png|Existential elimination}}   | \/                                                   |
 
 
 === Relativization and sorts ===
@@ -36,7 +37,7 @@ Existential quantification, e.g. "some woman is strong":
 
 ∃x (woman(x) ∧ strong(x))
 
-# TODO: some slides missed here
+Remember to use ∧ with ∃, and not →.
 
 === Models ===
 Let F be a set of function symbols, P a set of predicate symbols.

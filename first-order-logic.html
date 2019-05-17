@@ -1,15 +1,28 @@
-<!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript" async src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/javascript" async src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/javascript" async src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>first-order-logic</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+    <title>first-order-logic</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 <body>
-
+<style type="text/css">
+nav a {
+    text-align: left;
+}
+nav #name {
+    text-align: right;
+    float: right;
+    font-style: italic;
+}
+</style>
+    <nav>
+    <a href="index.html">Index</a>
+    <span id="name">Alex Balgavy</span>
+    </nav>
+    <hr>
+    <div class="content">
+    
 <div id="First order logic"><h2 id="First order logic" class="header"><a href="#First order logic">First order logic</a></h2></div>
 <div id="First order logic-Functions, predicates, relations"><h3 id="Functions, predicates, relations" class="header"><a href="#First order logic-Functions, predicates, relations">Functions, predicates, relations</a></h3></div>
 <p>
@@ -65,7 +78,7 @@ Equality
 </tr>
 <tr>
 <td>
-<img src="src/img/universal-introduction.png" alt="Universal introduction" />
+<img src="img/universal-introduction.png" alt="Universal introduction" />
 </td>
 <td>
 <img src="img/existential-introduction.png" alt="Existential introduction" />
@@ -76,7 +89,7 @@ Equality
 </tr>
 <tr>
 <td>
-<img src="src/img/universal-elimination.png" alt="Universal elimination" />
+<img src="img/universal-elimination.png" alt="Universal elimination" />
 </td>
 <td>
 <img src="img/existential-elimination.png" alt="Existential elimination" />
@@ -106,11 +119,9 @@ Existential quantification, e.g. "some woman is strong":
 ∃x (woman(x) ∧ strong(x))
 </p>
 
-<ol>
-<li>
-<span class="todo">TODO</span>: some slides missed here
-
-</ol>
+<p>
+Remember to use ∧ with ∃, and not →.
+</p>
 
 <div id="First order logic-Models"><h3 id="Models" class="header"><a href="#First order logic-Models">Models</a></h3></div>
 <p>
@@ -442,5 +453,6 @@ Completeness: if formula A is logical consequence of set of sentences Γ, then A
 Soundness: if A is provable from Γ then A is true in any model of Γ
 </p>
 
+    </div>
 </body>
 </html>

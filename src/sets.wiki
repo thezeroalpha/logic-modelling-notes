@@ -1,3 +1,4 @@
+%template math
 == Sets ==
 Recap from logic and sets:
     * empty set Ø = {x | false}
@@ -47,7 +48,7 @@ Principle of induction: let P be a property of natural numbers. Suppose P holds 
 
 As a natural deduction rule:
 
-{{local:img/induction-natural-deduction-rule.png|Induction natural deduction rule}}
+{{local:../img/induction-natural-deduction-rule.png|Induction natural deduction rule}}
 
 === Recursive definitions ===
 Let A be any set, suppose a is in A, and g: N × A → A. Then there is a unique function f satisfying:

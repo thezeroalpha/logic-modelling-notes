@@ -1,3 +1,4 @@
+%template math
 == Modal logic ==
 modal logic allows reasoning about dynamics -- futures, knowledge, beliefs, etc.
 
@@ -12,7 +13,7 @@ Kripke model `M = (W, R, L)` consists of:
 
 Kripke models define truth _per world_.
 
-{{local:img/kripke-model-and-graph.png|Kripke model and graph}}
+{{local:../img/kripke-model-and-graph.png|Kripke model and graph}}
 
 === Truth in worlds ===
 `M, w ⊩ Φ` means formula Φ is true in world w of Kripke model M.

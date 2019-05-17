@@ -2,9 +2,8 @@
 %template math
 
 = Logic and Modeling =
-[[http://avigad.github.io/logic_and_proof/propositional_logic.html|The book online.]]
+Here's the [[http://avigad.github.io/logic_and_proof/propositional_logic.html|online book]].
 
-== Contents ==
 - [[propositional-logic#Propositional logic|Propositional logic]]
   - [[propositional-logic#Propositional logic#Notation review|Notation review]]
   - [[propositional-logic#Propositional logic#Rules of inference|Rules of inference]]

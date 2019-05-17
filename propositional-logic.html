@@ -1,13 +1,28 @@
-<!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript" async src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>propositional-logic</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+    <title>propositional-logic</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 <body>
-
+<style type="text/css">
+nav a {
+    text-align: left;
+}
+nav #name {
+    text-align: right;
+    float: right;
+    font-style: italic;
+}
+</style>
+    <nav>
+    <a href="index.html">Index</a>
+    <span id="name">Alex Balgavy</span>
+    </nav>
+    <hr>
+    <div class="content">
+    
 <div id="Propositional logic"><h2 id="Propositional logic" class="header"><a href="#Propositional logic">Propositional logic</a></h2></div>
 <div id="Propositional logic-Notation review"><h3 id="Notation review" class="header"><a href="#Propositional logic-Notation review">Notation review</a></h3></div>
 <ul>
@@ -40,7 +55,7 @@
 </p>
 
 <p>
-<img src="src/img/logical-consequence.png" alt="Logical consequence" />
+<img src="img/logical-consequence.png" alt="Logical consequence" />
 </p>
 
 
@@ -64,7 +79,7 @@ Bi-implication ("if and only if")
 </tr>
 <tr>
 <td>
-<img src="src/img/implication-elimination.png" alt="Implication elimination" />
+<img src="img/implication-elimination.png" alt="Implication elimination" />
 </td>
 <td>
 <img src="img/conjunction-introduction.png" alt="Conjunction introduction" />
@@ -81,7 +96,7 @@ Bi-implication ("if and only if")
 </tr>
 <tr>
 <td>
-<img src="src/img/hypothesis.png" alt="Hypothesis" />
+<img src="img/hypothesis.png" alt="Hypothesis" />
 </td>
 <td>
 <img src="img/and-elimination.png" alt="And elimination" />
@@ -103,7 +118,7 @@ Truth and falsity: from false, you can conclude anything, and from nothing, you 
 </p>
 
 <p>
-<img src="src/img/falsum-elimination.png" alt="Falsum elimination" />, <img src="img/truth-introduction.png" alt="Truth introduction" />
+<img src="img/falsum-elimination.png" alt="Falsum elimination" />, <img src="img/truth-introduction.png" alt="Truth introduction" />
 </p>
 
 <p>
@@ -111,7 +126,7 @@ You can also derive this conjunction rule:
 </p>
 
 <p>
-<img src="src/img/conjunction-negation-rule.png" alt="Conjunction negation rule" />
+<img src="img/conjunction-negation-rule.png" alt="Conjunction negation rule" />
 </p>
 
 <div id="Propositional logic-Forward and backward reasoning"><h3 id="Forward and backward reasoning" class="header"><a href="#Propositional logic-Forward and backward reasoning">Forward and backward reasoning</a></h3></div>
@@ -137,7 +152,7 @@ Suppose a negation of a formula is true, prove that it's impossible, thereby pro
 </p>
 
 <p>
-<img src="src/img/proof-by-contradiction.png" alt="Proof by contradiction" />
+<img src="img/proof-by-contradiction.png" alt="Proof by contradiction" />
 </p>
 
 <p>
@@ -188,7 +203,7 @@ If you get stuck,
 
 </ol>
 <blockquote>
-<img src="src/img/go-go-proof-by-contradiction.jpg" alt="Proof by contradiction meme" style="width:20%" />
+<img src="img/go-go-proof-by-contradiction.jpg" alt="Proof by contradiction meme" style="width:20%" />
 </blockquote>
 <blockquote>
 (meme credit goes to Geo)
@@ -247,5 +262,6 @@ Proving soundness is easier than proving completeness.
 A is a logical consequence of Γ if, given any truth assignment that makes every formula in Γ true, A is true.
 </p>
 
+    </div>
 </body>
 </html>

@@ -1,3 +1,4 @@
+%template math
 == Propositional logic ==
 === Notation review ===
 * `A, B, C` -- propositions
@@ -11,21 +12,21 @@
 === Rules of inference ===
 "C is a logical consequence of A and B":
 
-{{local:img/logical-consequence.png|Logical consequence}}
+{{local:../img/logical-consequence.png|Logical consequence}}
 
 
 | Implication                                                            | Conjunction                                                              | Negation                                                                               | Disjunction                                                              | Bi-implication ("if and only if")                                              |
 |------------------------------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| {{local:img/implication-elimination.png|Implication elimination}} | {{file:img/conjunction-introduction.png|Conjunction introduction}} | {{file:img/negation-hypothetical-reasoning.png|Negation hypothetical reasoning}} | {{file:img/disjunction-introduction.png|Disjunction introduction}} | {{file:img/bi-implication-introduction.png|Bi-implication introduction}} |
-| {{local:img/hypothesis.png|Hypothesis}}                           | {{file:img/and-elimination.png|And elimination}}                   | {{file:img/negation-elimination.png|Negation elimination}}                       | {{file:img/disjunction-elimination.png|Disjunction elimination}}   | {{file:img/bi-implication-elimination.png|Bi-implication elimination}}   |
+| {{local:../img/implication-elimination.png|Implication elimination}} | {{local:../img/conjunction-introduction.png|Conjunction introduction}} | {{local:../img/negation-hypothetical-reasoning.png|Negation hypothetical reasoning}} | {{local:../img/disjunction-introduction.png|Disjunction introduction}} | {{local:../img/bi-implication-introduction.png|Bi-implication introduction}} |
+| {{local:../img/hypothesis.png|Hypothesis}}                           | {{local:../img/and-elimination.png|And elimination}}                   | {{local:../img/negation-elimination.png|Negation elimination}}                       | {{local:../img/disjunction-elimination.png|Disjunction elimination}}   | {{local:../img/bi-implication-elimination.png|Bi-implication elimination}}   |
 
 Truth and falsity: from false, you can conclude anything, and from nothing, you can conclude true.
 
-{{local:img/falsum-elimination.png|Falsum elimination}}, {{file:img/truth-introduction.png|Truth introduction}}
+{{local:../img/falsum-elimination.png|Falsum elimination}}, {{local:../img/truth-introduction.png|Truth introduction}}
 
 You can also derive this conjunction rule:
 
-{{local:img/conjunction-negation-rule.png|Conjunction negation rule}}
+{{local:../img/conjunction-negation-rule.png|Conjunction negation rule}}
 
 === Forward and backward reasoning ===
 Backward reasoning: looking at the goal and seeing what rules need to be applied ("bottom-up")
@@ -39,7 +40,7 @@ If all else fails, try proof by contradiction.
 === Proof by contradiction ===
 Suppose a negation of a formula is true, prove that it's impossible, thereby proving the original formula.
 
-{{local:img/proof-by-contradiction.png|Proof by contradiction}}
+{{local:../img/proof-by-contradiction.png|Proof by contradiction}}
 
 RAA stands for _"reductio ad absurdum"_
 
@@ -59,7 +60,7 @@ A general heuristic:
     2. When you run out of stuff to do, work forward with elimination rules.
     3. If you get stuck,
 
-    {{local:img/go-go-proof-by-contradiction.jpg|Proof by contradiction meme|style="width:20%"}}
+    {{local:../img/go-go-proof-by-contradiction.jpg|Proof by contradiction meme|style="width:20%"}}
 
     (meme credit goes to Geo)
 

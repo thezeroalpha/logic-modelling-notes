@@ -1,3 +1,4 @@
+%template math
 == Incompleteness theorem ==
 Consider sets of function and predicate symbols:
   * F = {0, S, +, ·}
