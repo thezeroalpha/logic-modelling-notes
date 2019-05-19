@@ -1,9 +1,18 @@
 <html>
 <head>
-    <link rel="Stylesheet" type="text/css" href="style.css" />
-    <title>sets</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
     <script type="text/javascript" async src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('pre.code').forEach(function(item) {
+          hljs.highlightBlock(item)
+        })
+      });
+    </script>
+    <title>sets</title>
 </head>
 <body>
 <style type="text/css">
@@ -72,7 +81,7 @@ reflexive: ∀x R(x,x)
 symmetric: ∀x ∀y (R(x,y) → R(y,x))
 
 <li>
-transitive: ∀x ∀y ∀x ((R(x,y) ∧ R(y,x)) → R(x,z))
+transitive: ∀x ∀y ∀z ((R(x,y) ∧ R(y,z)) → R(x,z))
 
 <li>
 serial: ∀x ∃y R(x,y)
@@ -155,7 +164,7 @@ As a natural deduction rule:
 </p>
 
 <p>
-<img src="img/induction-natural-deduction-rule.png" alt="Induction natural deduction rule" />
+<img src="../../img/induction-natural-deduction-rule.png" alt="Induction natural deduction rule" />
 </p>
 
 <div id="Sets-Recursive definitions"><h3 id="Recursive definitions" class="header"><a href="#Sets-Recursive definitions">Recursive definitions</a></h3></div>

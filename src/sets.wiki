@@ -16,7 +16,7 @@ Theorems:
 definitions of properties:
   * reflexive: ∀x R(x,x)
   * symmetric: ∀x ∀y (R(x,y) → R(y,x))
-  * transitive: ∀x ∀y ∀x ((R(x,y) ∧ R(y,x)) → R(x,z))
+  * transitive: ∀x ∀y ∀z ((R(x,y) ∧ R(y,z)) → R(x,z))
   * serial: ∀x ∃y R(x,y)
   * functional: ∀x ∃y (R(x,y) ∧ ∀z (R(x,z) → z=y))
 
