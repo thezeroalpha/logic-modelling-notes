@@ -1,10 +1,14 @@
 %% vim: relativenumber nospell spelllang=en_us spellcapcheck=
 %template math
+%% let g:vimwiki_wikilocal_vars[1]['path_html'] = expand('%:p:h').'/../'
+%% let g:vimwiki_wikilocal_vars[1]['template_path'] = '/Users/alex/Dropbox/vimwiki/templates/'
 
 = Logic and Modeling =
 Here's the [[http://avigad.github.io/logic_and_proof/propositional_logic.html|online book]].
 
 Also, [[local:../logic-modelling.apkg|here's my Anki deck]].
+
+[[The one-page cheat sheet]].
 
 - [[propositional-logic#Propositional logic|Propositional logic]]
   - [[propositional-logic#Propositional logic#Notation review|Notation review]]
